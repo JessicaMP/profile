@@ -1,0 +1,103 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #201e43;
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: #134b70;
+  font-weight: 700;
+}
+
+p {
+  color: #af7595;
+}
+
+a {
+  /* color: #508c9b; */
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding-left: 0px;
+}
+
+li > a {
+  font-size: 30px;
+  color: #508c9b;
+}
+
+li > a:hover {
+  font-size: 35px;
+  color: #134b70;
+}
+
+.card {
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.button {
+  background-color: #508c9b;
+  color: #ffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #508c9b;
+  opacity: 0.8;
+}
+
+.rounded-full{
+  border-radius: 50%;
+  width: 150px;
+  /* height: 150px */
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
